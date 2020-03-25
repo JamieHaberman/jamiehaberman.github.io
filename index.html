@@ -71,7 +71,9 @@ var aboutin = true;
 
 function vidIn() {
 	vid2.style.zIndex = "-1";
+	vi2.style.opacity = "0";
 	vid1.style.zIndex = "1";
+	vid1.style.opacity = "1";
 	vid1.currentTime = 0;
   vid1.load();
   vid1.play();
@@ -83,6 +85,7 @@ function vidOut() {
 	vid1.pause();
 	vid2.style.zIndex = "1";
   vid1.style.zIndex = "-1";
+	vid1.style.opacity="0";
 	vid2.currentTime = 0;
 vid2.load();
   vid2.play();
