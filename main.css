@@ -1,7 +1,7 @@
 body {
 	margin: 0;
-/* 	background-color: #DFDFDA; */
-	background-color: red;
+	background-color: #DFDFDA;
+	/* background-color: red; */
 
 	color: #fff;
 }
@@ -91,7 +91,6 @@ opacity:0.5;
 }
 #animate-out {
 	mix-blend-mode: darken;
-
 	opacity:0;
 	z-index:-1;
 }
