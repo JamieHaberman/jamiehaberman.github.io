@@ -90,7 +90,13 @@ opacity:0.5;
 	mix-blend-mode: darken;
 }
 #animate-out {
+	mix-blend-mode: darken;
+
+	opacity:0;
 	z-index:-1;
+}
+#animate-in {
+	mix-blend-mode: darken;
 }
 #explain{
 
